@@ -1,0 +1,10 @@
+{
+  "split": "One final enrollment per learner held out as target; disjoint learner train/test 75/25",
+  "eligible_learners": 1380,
+  "train_learners": 1035,
+  "test_learners": 345,
+  "target_classes": 12,
+  "target_definition": "Next category or next amount; these are observed enrollments, not completion labels",
+  "anomaly_limit": "No anomaly labels exist; flag rates are descriptive, not precision/recall",
+  "classification_baseline_macro_f1": 0.0141
+}

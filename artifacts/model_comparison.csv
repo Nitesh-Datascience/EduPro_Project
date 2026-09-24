@@ -1,0 +1,14 @@
+model,task,metric,score,accuracy,balanced_accuracy,sample_size,rmse,r2
+Dummy Classifier,Next course category,Macro F1,0.0141,0.0928,0.0833,345,,
+Logistic Regression,Next course category,Macro F1,0.0704,0.0725,0.0708,345,,
+K-Nearest Neighbours (KNN),Next course category,Macro F1,0.0942,0.0957,0.0964,345,,
+Decision Tree,Next course category,Macro F1,0.101,0.1014,0.1016,345,,
+Random Forest,Next course category,Macro F1,0.089,0.0899,0.0887,345,,
+Gradient Boosting,Next course category,Macro F1,0.0659,0.0696,0.068,345,,
+Deep Neural Network (MLP),Next course category,Macro F1,0.0653,0.0725,0.0716,345,,
+Linear Regression,Next transaction amount,MAE (amount units),114.7239,,,345,144.6671,-0.0131
+Polynomial Regression with Ridge,Next transaction amount,MAE (amount units),126.1997,,,345,166.888,-0.3482
+Support Vector Regression (SVR),Next transaction amount,MAE (amount units),79.338,,,345,163.5001,-0.294
+Isolation Forest,Unusual behavior detection,Flag rate (unlabeled),0.0319,,,345,,
+One-Class SVM,Unusual behavior detection,Flag rate (unlabeled),0.2261,,,345,,
+Autoencoder (MLP bottleneck),Unusual behavior detection,Flag rate (unlabeled),0.1188,,,345,,
